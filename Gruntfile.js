@@ -57,10 +57,7 @@ module.exports = function (grunt) {
           src: ['Gruntfile.js', '<%= srcDir %>/app/**/*.js']
         }
       },
-      options: {
-        jshintrc: '.jshintrc',
-        reporterOutput: ''
-      }
+      options: {}
     },
     htmlmin:{
       build: {
