@@ -5,7 +5,7 @@
   "curly": true,
   "eqnull": true,
   "globalstrict": true,
-  "devel": true,
+  "devel": false,
   "eqeqeq": true,
   "forin": false,
   "immed": true,
