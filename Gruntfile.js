@@ -10,7 +10,6 @@ module.exports = function (grunt) {
     tempDir: 'tmp',
     meta: {
        banner: '/*! <%= pkg.name %> - v<%= pkg.version %> - ' +
-         '<%= grunt.template.today("yyyy-mm-dd") %>\n' +
          ' Licensed <%= pkg.license %> */\n\n'
     },
     clean: {
